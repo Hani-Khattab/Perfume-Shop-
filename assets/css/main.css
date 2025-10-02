@@ -16,6 +16,7 @@ body{
     }
 
     .marquee-text p {
+      font-size: 16px;
       display:flex;
       animation: scroll 8s linear infinite;
     }
@@ -28,7 +29,11 @@ body{
         transform: translateX(-100%);
       }
     }
+
+  
 /* End Header Marquee */
+
+/* Start Navbar*/
 
 .navbar{
   background-color: #fff;
@@ -62,6 +67,83 @@ body{
 .nav-icon:hover{
 border-color: var(--mainColor);
 }
+/* End Navbar*/
 
 
+/* Start Hero Section*/
+
+.hero-perfume .carousel-item {
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 40%;
+  padding: 20px;
+}
+
+.hero-left {
+  left: 5%;
+  text-align: left;
+}
+
+.hero-right {
+  right: 5%;
+  text-align: right;
+}
+.btn {
+  padding: 10px 25px;
+  background-color: var(--mainColor);
+  color: #f5f5f5;
+}
+
+
+
+@media (max-width: 992px) {
+  .hero-content {
+    max-width: 70%;
+  }
+
+  .hero-content h2 {
+    font-size: 20px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-content .btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 436px) {
+  .hero-content {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .hero-content h2 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .hero-content p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .hero-content .btn {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+}
+
+/* End Hero Section*/
+
+
+   
    
