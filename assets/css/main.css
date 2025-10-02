@@ -5,6 +5,31 @@ body{
   background-color: aliceblue;
     height: 5000px;
 }
+/* Start Header Marquee */
+.header-marquee {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      background-color: #000;
+      color: #fff;
+      padding: 8px 0;
+    }
+
+    .marquee-text p {
+      display:flex;
+      animation: scroll 8s linear infinite;
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+/* End Header Marquee */
+
 .navbar{
   background-color: #fff;
 }
