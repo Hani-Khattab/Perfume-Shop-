@@ -192,6 +192,53 @@ margin-top: 15px;
 
 
 /* Start Best_selling Fragrance */
+.best-selling-title h3{
+  font-weight: 700;
+}
+.best-selling-title p{
+  color: var(--mainColor);
+  font-weight: 600;
+}
+
+.perfume-name{
+  font-weight: 700;
+}
+.price-new{
+  color: var(--mainColor);
+  font-weight: 700;
+  
+}
+.badge-save {
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      background-color: var(--mainColor);
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 10px;
+      z-index: 10;
+    }
+
+.badge-sold {
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      background-color:#000;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 10px;
+      z-index: 10;
+    }
+.product-card {
+      border: none;
+      transition: all 0.3s ease;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+.product-card:hover {
+      transform: translateY(-5px);
+    }
+
 
 /* End Best_selling Fragrance */
 
