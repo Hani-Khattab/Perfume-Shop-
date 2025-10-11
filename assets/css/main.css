@@ -183,7 +183,11 @@ margin-top: 15px;
 
 
  /* Start Services*/ 
-
+.services{
+  padding-top: 20px;
+  background-color: var(--mainColor);
+  color: #fff;
+}
 /* End Services*/
 
 
