@@ -245,6 +245,61 @@ margin-top: 15px;
 
 
 /* Start blog-card*/
+.news {
+  background-color: #fafafa;
+}
+.news p{
+  color: var(--mainColor);
+  font-weight: 700;
+}
+
+.news h3 {
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}
+
+.blog-card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.blog-card img {
+  transition: transform 0.4s ease;
+  height: 250px;
+  object-fit: cover;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.blog-card:hover img {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-info i {
+  color: #ff7f50;
+}
+
+.card-text {
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 767.98px) {
+  .row.g-4 {
+    gap: 1.5rem !important;
+  }
+  .blog-card img {
+    height: 200px;
+  }
+}
 
 /* End blog-card*/
 
