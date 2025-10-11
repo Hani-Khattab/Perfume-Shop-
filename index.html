@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+            <!-- CSS Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
         <!--  Bootstrap CSS  -->
@@ -15,9 +20,10 @@
         <!--  Custom CSS -->
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
+
+
 <body>
 
-        <!--بداية  شريط اعلانات متحرك   -->
   <div class="header-marquee">
     <div class="marquee-text d-flex gap-5 justify-content-center  align-content-center">
    <p>Shop Now For Limited-Time Discount!</p>
@@ -26,7 +32,6 @@
     <p>Enjoy a Free Gift Every Purchase!</p>
     </div>
   </div>
- <!--  نهاية شريط اعلانات متحرك   -->
 
 <nav class="navbar navbar-expand-lg  shadow-sm py-3 sticky-top">
   <div class="container">
@@ -93,6 +98,7 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
+
     <div class="carousel-item active">
       <img src="./assets/img/hero/hero-img1.webp" class="d-block w-100" alt="hero-img-1">
       <div class="hero-content hero-left text-start text-dark">
@@ -101,10 +107,8 @@
             <button class="btn btn-light  mt-3">SHOP NOW</button>
           </div>
         </div>
-    </div>
 
-
-    <div class="carousel-item">
+        <div class="carousel-item">
       <img src="./assets/img/hero/hero-img2.webp" class="d-block w-100" alt="hero-img-2">
             <div class="hero-content hero-right text-start text-dark">
             <h2>Explore Your Signature Scent </h2>
@@ -112,7 +116,6 @@
             <button class="btn btn-light mt-3">SHOP NOW</button>
           </div>
     </div>
-
 
     <div class="carousel-item">
       <img src="./assets/img/hero/hero-img3.webp" class="d-block w-100" alt="hero-img-3">
@@ -123,6 +126,8 @@
           </div>
     </div>
   </div>
+
+
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -134,13 +139,60 @@
 </div>
 </section>
 
+<section class="collection py-5">
+  <div class="container">
+    <div class="row text-center g-4">
+     
+      <div class="collection-item col-md-3 col-sm-6 w-25">
+        <img src="./assets/img/collection/colection-1.webp " class="img-fluid rounded" alt="collection perfume">
+        <h5>Men Colognes</h5>
+        <p>8 Items</p>
+      </div>
+
+      <div class="collection-item col-md-3 col-sm-6">
+        <img src="./assets/img/collection/colection-2.webp" class="img-fluid rounded" alt="collection perfume">
+        <h5>Women Perfumes</h5>
+        <p> 7 Items </p>
+      </div>
+
+      <div class="collection-item col-md-3 col-sm-6">
+        <img src="./assets/img/collection/colection-3.webp" class="img-fluid rounded" alt="collection perfume">
+        <h5> Kids Perfume</h5>
+        <p>7 Items</p>
+      </div>
+
+      <div class="collection-item col-md-3 col-sm-6">
+        <img src="./assets/img/collection/colection-4.webp" class="img-fluid rounded" alt="collection perfume">
+        <h5>New Fragrance</h5>
+        <p>3 Items</p>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="#" class="btn btn-dark px-4 py-2 rounded-4">VIEW ALL</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
 </main>
 
 <footer class="footer py-5">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       
       <!-- Left Side -->
