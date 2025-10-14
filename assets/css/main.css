@@ -1,9 +1,9 @@
 :root{
     --mainColor:#5d3754;
-    --mainFont:'playfair display'
+    --mainFont: 'Playfair Display,serif';
 }
 body{
-  --mainFont:var(--mainFont)
+ background-color: #ffffff;
   
 }
 /* Start Header Marquee */
@@ -242,7 +242,50 @@ margin-top: 15px;
 
 /* End Best_selling Fragrance */
 
+/* Start Quastions Section*/
 
+.quastion-section {
+  background-color: #f8f8f8;
+  font-family: var(--mainFont);
+  padding: 100px 0;
+}
+
+.faq-title h2 {
+  color: #000;
+  font-family: var(--mainFont);
+}
+
+.accordion-button {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000;
+  transition: all 0.3s ;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-body {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.faq-image img {
+  width: 700px;
+  height: 500px;
+  transition: transform 0.4s ;
+}
+
+.faq-image img:hover {
+  transform: scale(1.03);
+}
+/* End Quastions Section*/
 
 /* Start blog-card*/
 .news {
