@@ -176,9 +176,27 @@ margin-top: 15px;
 .collection-item img:hover {
   transform: scale(1.1);
 }
+
+.carousel-control-prev-icon{
+  margin-right: 100px;
+  padding: 20px 20px;
+}
+.carousel-control-next-icon{
+   margin-left: 100px;
+  padding: 20px 20px;
+}
 /*  End Collection */
 
+/* Best Seller women */
 
+
+
+
+
+
+
+
+/* Best Seller women */
 
 
 
@@ -241,6 +259,22 @@ margin-top: 15px;
 
 
 /* End Best_selling Fragrance */
+.offer-section p{
+ font-size: 36px;
+ 
+}
+.offer-per{
+padding-top: 25px;
+ font-family: "Playfair Display", serif;
+ font-size: 50px;
+}
+
+
+.border-dashed-custom {
+  border: 2px dashed #d8d8d8; /* اللون مشابه للصورة */
+      /* نفس حواف الصورة */
+}
+
 
 /* Start Quastions Section*/
 
@@ -257,7 +291,7 @@ margin-top: 15px;
 
 .accordion-button {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 28px;
   color: #000;
   transition: all 0.3s ;
 }
@@ -273,7 +307,7 @@ margin-top: 15px;
 
 .accordion-body {
   color: #555;
-  font-size: 0.95rem;
+  font-size: 22px;
 }
 
 .faq-image img {
