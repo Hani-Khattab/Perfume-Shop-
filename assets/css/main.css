@@ -1,76 +1,71 @@
-:root{
-    --mainColor:#5d3754;
-    --mainFont: 'Playfair Display,serif';
+:root {
+  --mainColor: #5d3754;
+  --mainFont: "Playfair Display,serif";
 }
-body{
- background-color: #ffffff;
-  
+body {
+  background-color: #ffffff;
 }
 /* Start Header Marquee */
 .header-marquee {
-      width: 100%;
-      position: relative;
-      overflow: hidden;
-      background-color: #000;
-      color: #fff;
-      padding: 8px 0;
-    }
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 0;
+}
 
-    .marquee-text p {
-      font-size: 16px;
-      display:flex;
-      animation: scroll 8s linear infinite;
-    }
+.marquee-text p {
+  font-size: 16px;
+  display: flex;
+  animation: scroll 8s linear infinite;
+}
 
-    @keyframes scroll {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(100%);
-      }
-    }
+@keyframes scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
 
-  
 /* End Header Marquee */
 
 /* Start Navbar*/
 
-.navbar{
+.navbar {
   background-color: #fff;
 }
-.nav-item a{
+.nav-item a {
   color: black;
 }
 .dropdown-item:hover {
   color: var(--mainColor);
-
 }
 .navbar-nav .nav-link {
-      font-weight: 600;
-    }
+  font-weight: 600;
+}
 
 .search-box {
-      border-radius: 25px;
-      background: #f5f5f5;
-      padding: 5px 15px;
-    }
-.input-group-text i{
+  border-radius: 25px;
+  background: #f5f5f5;
+  padding: 5px 15px;
+}
+.input-group-text i {
   cursor: pointer;
-  
 }
 .input-group-text i:hover {
   color: var(--mainColor);
-  transition: all .5;
+  transition: all 0.5;
 }
-.nav-icon{
+.nav-icon {
   cursor: pointer;
 }
-.nav-icon:hover{
-border-color: var(--mainColor);
+.nav-icon:hover {
+  border-color: var(--mainColor);
 }
 /* End Navbar*/
-
 
 /* Start Hero Section*/
 
@@ -144,32 +139,31 @@ border-color: var(--mainColor);
 /* End Hero Section*/
 
 /*  Start Collection */
-.collection{
+.collection {
   padding: 40px 0;
 }
-.collection-item img{
+.collection-item img {
   width: 300px;
   overflow: hidden;
   border-radius: 15px;
   transition: transform 0.5s;
   height: 300px;
 }
-.collection-item h5{
-margin-top: 15px;
+.collection-item h5 {
+  margin-top: 15px;
 }
-.collection-item p{
- color: var(--mainColor);
+.collection-item p {
+  color: var(--mainColor);
 }
-.collection-btn{
+.collection-btn {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 10%;
-
 }
-.collection-btn a{
+.collection-btn a {
   text-decoration: none;
   color: #fff;
 }
@@ -177,104 +171,103 @@ margin-top: 15px;
   transform: scale(1.1);
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   margin-right: 100px;
   padding: 20px 20px;
 }
-.carousel-control-next-icon{
-   margin-left: 100px;
+.carousel-control-next-icon {
+  margin-left: 100px;
   padding: 20px 20px;
 }
 /*  End Collection */
 
 /* Best Seller women */
 
-
-
-
-
-
-
-
 /* Best Seller women */
 
-
-
- /* Start Services*/ 
-.services{
+/* Start Services*/
+.services {
   padding-top: 20px;
   background-color: var(--mainColor);
   color: #fff;
 }
 /* End Services*/
 
-
 /* Start Best_selling Fragrance */
-.best-selling-title h3{
+.best-selling-title h3 {
   font-weight: 700;
 }
-.best-selling-title p{
+.best-selling-title p {
   color: var(--mainColor);
   font-weight: 600;
 }
 
-.perfume-name{
+.perfume-name {
   font-weight: 700;
 }
-.price-new{
+.price-new {
   color: var(--mainColor);
   font-weight: 700;
-  
 }
 .badge-save {
-      position: absolute;
-      top: 8px;
-      left: 10px;
-      background-color: var(--mainColor);
-      color: #fff;
-      padding: 5px 10px;
-      border-radius: 10px;
-      z-index: 10;
-    }
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  background-color: var(--mainColor);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  z-index: 10;
+}
 
 .badge-sold {
-      position: absolute;
-      top: 8px;
-      left: 10px;
-      background-color:#000;
-      color: #fff;
-      padding: 5px 10px;
-      border-radius: 10px;
-      z-index: 10;
-    }
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  z-index: 10;
+}
 .product-card {
-      border: none;
-      transition: all 0.3s ease;
-      border-radius: 10px;
-      overflow: hidden;
-    }
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
 .product-card:hover {
-      transform: translateY(-5px);
-    }
-
-
+  transform: translateY(-5px);
+}
 /* End Best_selling Fragrance */
-.offer-section p{
- font-size: 36px;
- 
-}
-.offer-per{
-padding-top: 25px;
- font-family: "Playfair Display", serif;
- font-size: 50px;
-}
 
+/* Start offer section*/
+.offer-section p {
+  font-size: 36px;
+}
+.offer-per {
+  padding-top: 25px;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
 
 .border-dashed-custom {
   border: 2px dashed #d8d8d8; /* اللون مشابه للصورة */
-      /* نفس حواف الصورة */
+  /* نفس حواف الصورة */
 }
+/* End offer section*/
 
+/* Start testimonails section*/
+
+.testimonial-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      padding: 1.5rem;
+      transition: all 0.4s ;
+      height: 100%;
+    }
+/* End testimonails section*/
 
 /* Start Quastions Section*/
 
@@ -293,7 +286,7 @@ padding-top: 25px;
   font-weight: 600;
   font-size: 28px;
   color: #000;
-  transition: all 0.3s ;
+  transition: all 0.3s;
 }
 
 .accordion-button:not(.collapsed) {
@@ -313,7 +306,7 @@ padding-top: 25px;
 .faq-image img {
   width: 700px;
   height: 500px;
-  transition: transform 0.4s ;
+  transition: transform 0.4s;
 }
 
 .faq-image img:hover {
@@ -325,7 +318,7 @@ padding-top: 25px;
 .news {
   background-color: #fafafa;
 }
-.news p{
+.news p {
   color: var(--mainColor);
   font-weight: 700;
 }
@@ -349,7 +342,7 @@ padding-top: 25px;
 
 .blog-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .blog-card:hover img {
@@ -380,20 +373,14 @@ padding-top: 25px;
 
 /* End blog-card*/
 
-
-
-
-
 /* Start Footer*/
 .footer {
   padding-left: 30px;
   background-color: #f8f8f8;
   color: #333;
-  
 }
 
 .footer h3 {
-
   font-weight: 600;
   margin-bottom: 16px;
   color: #000;
@@ -457,15 +444,6 @@ padding-top: 25px;
 .newsletter-form .btn:hover {
   background-color: #5d3754;
   color: #fff;
-  
 }
 
 /* End Footer*/
-
-
-
-
-
-
-   
-   
