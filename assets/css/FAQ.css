@@ -1,0 +1,180 @@
+
+:root{
+    --mainColor:#5d3754;
+    --mainFont: 'Playfair Display,serif';
+}
+
+
+
+/* Start Navbar*/
+
+.navbar{
+  background-color: #fff;
+}
+.nav-item a{
+  color: black;
+}
+.dropdown-item:hover {
+  color: var(--mainColor);
+
+}
+.navbar-nav .nav-link {
+      font-weight: 600;
+    }
+
+.search-box {
+      border-radius: 25px;
+      background: #f5f5f5;
+      padding: 5px 15px;
+    }
+.input-group-text i{
+  cursor: pointer;
+  
+}
+.input-group-text i:hover {
+  color: var(--mainColor);
+  transition: all .5;
+}
+.nav-icon{
+  cursor: pointer;
+}
+.nav-icon:hover{
+border-color: var(--mainColor);
+}
+/* End Navbar*/
+
+/* Start Breadcrumb */
+.breadcrumb-section{
+  background-color: #f8f8f8;
+  
+}
+/* END Breadcrumb */
+
+
+/* Start Quastion-faq*/
+
+.quastion-section {
+  font-family: var(--mainFont);
+  padding: 100px 0;
+}
+
+.faq-title h2 {
+  color: #000;
+  font-family: var(--mainFont);
+}
+
+.accordion-button {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  transition: all 0.3s ;
+}
+
+.faq-box .btn{
+  background-color: var(--mainColor);
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-body {
+  color: #555;
+  font-size: 1.5rem;
+}
+
+.faq-image img {
+  width: 700px;
+  height: 500px;
+  transition: transform 0.4s ;
+}
+
+/* End Quastion-faq*/
+
+
+
+
+/* Start Footer*/
+.footer {
+  padding-left: 30px;
+  background-color: #f8f8f8;
+  color: #333;
+  
+}
+
+.footer h3 {
+
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #000;
+}
+
+.footer p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 15px;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+  color: #5d3754;
+}
+
+.footer .icon {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  background-color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.footer .icon:hover {
+  background-color: #d2cdcd;
+  color: #fff;
+  border-color: #5d3754;
+}
+.newsletter-form .form-control {
+  border-radius: 50px 0 0 50px;
+  border: 1px solid #d2cdcd;
+}
+.newsletter-form .btn {
+  border-radius: 0 50px 50px 0;
+  background-color: #fff;
+  border: 1px solid #d2cdcd;
+  border-left: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+.newsletter-form .btn:hover {
+  background-color: #5d3754;
+  color: #fff;
+  
+}
+
+/* End Footer*/
