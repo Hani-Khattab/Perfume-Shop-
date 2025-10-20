@@ -99,7 +99,38 @@ border-color: var(--mainColor);
 /* End Quastion-faq*/
 
 
-
+.testimonial-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      padding: 1.5rem;
+      transition: all 0.4s ;
+      height: 100%;
+    }
+.testimonials img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.carousel-control-next{
+    top: -70px;
+    right: 3px;
+    background-color: var(--mainColor);
+    opacity: 1.5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.carousel-control-prev{
+    top: -70px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color:var(--mainColor);
+    opacity: 1.5;
+    color: #000;
+    left: 92%;
+}
 
 /* Start Footer*/
 .footer {
