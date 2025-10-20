@@ -67,6 +67,21 @@ body {
 }
 /* End Navbar*/
 
+/*Start cart offcanvas*/
+.offcanvas-body a{
+color: var(--mainColor);
+font-weight: 700;
+}
+
+.offcanvas-body p{
+  font-family: var(--mainFont);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+
+/*Start cart offcanvas*/
+
 /* Start Hero Section*/
 
 .hero-perfume .carousel-inner {
@@ -252,8 +267,7 @@ body {
 }
 
 .border-dashed-custom {
-  border: 2px dashed #d8d8d8; /* اللون مشابه للصورة */
-  /* نفس حواف الصورة */
+  border: 2px dashed #d8d8d8; 
 }
 /* End offer section*/
 
