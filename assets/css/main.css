@@ -1,5 +1,5 @@
 :root {
-  --mainColor: #5d3754;
+  --mainColor: rgb(93, 55, 84);
   --mainFont: "Playfair Display,serif";
 }
 body {
@@ -197,6 +197,67 @@ font-weight: 700;
 /*  End Collection */
 
 /* Best Seller women */
+.bestseller-Women-section h2 {
+  font-family: var(--mainFont);
+  font-weight: 700;
+}
+
+.bestseller-Women-section p {
+  font-family: var(--mainFont);
+  font-size: 18px;
+  color: var(--mainColor);
+}
+
+.icon-view {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 22px;
+  top: 31px;
+  gap: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.card:hover .icon-view {
+  visibility: visible;
+  opacity: 1;
+}
+
+.icon-view button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #333;
+  transition: transform 0.2s;
+}
+
+.icon-view button:hover {
+  transform: scale(1.1);
+  color: #000;
+  background-color: var(--mainColor);
+  }
+
+
+.bestseller-Women-section .carousel-control-next-icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%; 
+  background-color: var(--mainColor);
+
+}
+.bestseller-Women-section .carousel-control-prev-icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%; 
+  background-color: var(--mainColor);
+
+}
 
 /* Best Seller women */
 
@@ -229,6 +290,7 @@ font-weight: 700;
   top: 8px;
   left: 10px;
   background-color: var(--mainColor);
+  font-family: var(--mainFont);
   color: #fff;
   padding: 5px 10px;
   border-radius: 10px;
@@ -240,6 +302,7 @@ font-weight: 700;
   top: 8px;
   left: 10px;
   background-color: #000;
+  font-family: var(--mainFont);
   color: #fff;
   padding: 5px 10px;
   border-radius: 10px;
@@ -254,6 +317,44 @@ font-weight: 700;
 .product-card:hover {
   transform: translateY(-5px);
 }
+.icon-view-sec {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 22px;
+  top: 31px;
+  gap: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.card:hover .icon-view-sec {
+  visibility: visible;
+  opacity: 1;
+}
+
+.icon-view-sec button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #333;
+  transition: transform 0.2s;
+}
+
+.icon-view-sec button:hover {
+  transform: scale(1.1);
+  color: #000;
+  background-color: var(--mainColor);
+  }
+
+
+
+
 /* End Best_selling Fragrance */
 
 /* Start offer section*/
