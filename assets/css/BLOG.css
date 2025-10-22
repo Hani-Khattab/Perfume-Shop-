@@ -1,0 +1,175 @@
+:root {
+  --mainColor: rgb(93, 55, 84);
+  --mainFont: "Playfair Display,serif";
+}
+body {
+  background-color: #ffffff;
+
+}
+
+/* Start Navbar*/
+
+.navbar {
+  background-color: #fff;
+}
+.nav-item a {
+  color: black;
+}
+.dropdown-item:hover {
+  color: var(--mainColor);
+}
+.navbar-nav .nav-link {
+  font-weight: 600;
+}
+
+.search-box {
+  border-radius: 25px;
+  background: #f5f5f5;
+  padding: 5px 15px;
+}
+.input-group-text i {
+  cursor: pointer;
+}
+.input-group-text i:hover {
+  color: var(--mainColor);
+  transition: all 0.5;
+}
+.nav-icon {
+  cursor: pointer;
+}
+.nav-icon:hover {
+  border-color: var(--mainColor);
+}
+/* End Navbar*/
+
+/* Start Breadcrumb */
+.breadcrumb-section{
+  background-color: var(--mainColor);
+}
+.breadcrumb a{
+    text-decoration-line: none;
+    color: #fff;
+}
+
+/* END Breadcrumb */
+
+/* Start Card-news */
+.card-news{
+    padding: 90px 0;
+}
+.card-news h4{
+    font-family: var(--mainFont);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.card-news .btn{
+    background-color: var(--mainColor);
+    font-family: var(--mainFont);
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px 30px;
+}
+
+.card-news .btn:hover{
+background-color: #333;
+
+}
+
+
+/* End Card-news */
+
+/* Start Pagination*/
+.pagination .page-item{
+    width: 70px;
+    padding-bottom: 50px;
+
+}
+.pagination a{
+    background-color: var(--mainColor);
+    color: #fff ;
+    border-radius: 8px;
+}
+.pagination a:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+/* Start Pagination*/
+
+
+
+
+/* Start Footer*/
+.footer {
+  padding-left: 30px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.footer h3 {
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #000;
+}
+
+.footer p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 15px;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+  color: #5d3754;
+}
+
+.footer .icon {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  background-color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.footer .icon:hover {
+  background-color: #d2cdcd;
+  color: #fff;
+  border-color: #5d3754;
+}
+.newsletter-form .form-control {
+  border-radius: 50px 0 0 50px;
+  border: 1px solid #d2cdcd;
+}
+.newsletter-form .btn {
+  border-radius: 0 50px 50px 0;
+  background-color: #fff;
+  border: 1px solid #d2cdcd;
+  border-left: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+.newsletter-form .btn:hover {
+  background-color: #5d3754;
+  color: #fff;
+}
+
+/* End Footer*/
