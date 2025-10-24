@@ -41,6 +41,21 @@ body {
   border-color: var(--mainColor);
 }
 /* End Navbar*/
+/*Start cart offcanvas*/
+.offcanvas-body a{
+color: var(--mainColor);
+font-weight: 700;
+}
+
+.offcanvas-body p{
+  font-family: var(--mainFont);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+
+/*End cart offcanvas*/
+
 
 /* Start Breadcrumb */
 .breadcrumb-section{

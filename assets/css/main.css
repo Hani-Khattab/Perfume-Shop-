@@ -4,6 +4,8 @@
 }
 body {
   background-color: #ffffff;
+    font-family: var(--mainFont);
+
 }
 /* Start Header Marquee */
 .header-marquee {
@@ -32,7 +34,31 @@ body {
 
 /* End Header Marquee */
 
+/* Start top offcanvas */
+
+.offcanvas-top {
+    background-color: #fff;
+    transition: transform 0.4s ;
+    border-bottom: 1px solid #eee;
+  }
+
+  .offcanvas-body a:hover {
+    text-decoration: underline;
+  }
+
+
+/* Start top offcanvas */
+
 /* Start Navbar*/
+.hero-perfume h2 {
+  font-size:50px ;
+  font-weight: 700;
+}
+.hero-perfume p {
+  font-size:26px ;
+  font-weight: 500;
+}
+
 
 .navbar {
   background-color: #fff;
@@ -65,6 +91,35 @@ body {
 .nav-icon:hover {
   border-color: var(--mainColor);
 }
+.hero-perfume .carousel-control-next-icon{
+    margin-right: 25px;
+    padding: 25px 25px;
+}
+.hero-perfume .carousel-control-prev-icon{
+    margin-right: 150px;
+    padding: 25px 25px;
+}
+.carousel-indicators  [data-bs-target]{
+    border-radius: 50%;
+       width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: gray;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ;
+}
+
+.carousel-indicators .active{
+ background-color: var(--mainColor);
+}
+
+
 /* End Navbar*/
 
 /*Start cart offcanvas*/
@@ -83,7 +138,9 @@ font-weight: 700;
 /*Start cart offcanvas*/
 
 /* Start Hero Section*/
-
+.hero-perfume img{
+  height: 85vh;
+}
 .hero-perfume .carousel-inner {
   position: relative;
 }

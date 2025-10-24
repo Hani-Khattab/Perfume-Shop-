@@ -1,47 +1,47 @@
-:root{
-    --mainColor:#5d3754;
-    --mainFont: 'Playfair Display,serif';
+
+:root {
+  --mainColor: rgb(93, 55, 84);
+  --mainFont: "Playfair Display,serif";
 }
+body {
+  background-color: #ffffff;
 
-
+}
 
 /* Start Navbar*/
 
-.navbar{
+.navbar {
   background-color: #fff;
 }
-.nav-item a{
+.nav-item a {
   color: black;
 }
 .dropdown-item:hover {
   color: var(--mainColor);
-
 }
 .navbar-nav .nav-link {
-      font-weight: 600;
-    }
+  font-weight: 600;
+}
 
 .search-box {
-      border-radius: 25px;
-      background: #f5f5f5;
-      padding: 5px 15px;
-    }
-.input-group-text i{
+  border-radius: 25px;
+  background: #f5f5f5;
+  padding: 5px 15px;
+}
+.input-group-text i {
   cursor: pointer;
-  
 }
 .input-group-text i:hover {
   color: var(--mainColor);
-  transition: all .5;
+  transition: all 0.5;
 }
-.nav-icon{
+.nav-icon {
   cursor: pointer;
 }
-.nav-icon:hover{
-border-color: var(--mainColor);
+.nav-icon:hover {
+  border-color: var(--mainColor);
 }
 /* End Navbar*/
-
 
 /*Start cart offcanvas*/
 .offcanvas-body a{
@@ -56,47 +56,53 @@ font-weight: 700;
 }
 
 
-/*Start cart offcanvas*/
+/*End cart offcanvas*/
 
-/* login form*/
-.login-form .container{
-    max-width: 450px;
+
+/* Start Breadcrumb */
+.breadcrumb-section{
+  background-color: #f5f5f5;
 }
-.login-form .container h2 {
-    font-size: 36px;
-    font-family: var(--mainFont);
-}
-.login-form a{
+.breadcrumb a{
+    font-size:16px;
+    text-decoration-line: none;
     color: var(--mainColor);
 }
 
-.login-form .btn{
-    padding: 10px 30px;
-    color: #f5f5f5;
+/* END Breadcrumb */
+
+/* Wishlist section  */
+.wishlist-body{
+    height: 50vh;
+    padding: 50px 0px;
+}
+.wishlist-body h2{
+    font-family: var(--mainFont);
+    font-size: 36px;
+    font-weight: 700;
+}
+.wishlist-body p{
+color: var(--mainColor);
+}
+.btn-wishlist{
     background-color: var(--mainColor);
+    color: #fff;
 }
-.btn:hover{
-    background-color: #333;
-    color: #f5f5f5;
+.btn-wishlist:hover{
+    background-color:gray;
+    color: #fff;
 }
 
-
-
-
-
-
-
+/* Wishlist section  */
 
 /* Start Footer*/
 .footer {
   padding-left: 30px;
   background-color: #f8f8f8;
   color: #333;
-  
 }
 
 .footer h3 {
-
   font-weight: 600;
   margin-bottom: 16px;
   color: #000;
@@ -160,13 +166,6 @@ font-weight: 700;
 .newsletter-form .btn:hover {
   background-color: #5d3754;
   color: #fff;
-  
 }
 
 /* End Footer*/
-
-
-
-
-
-

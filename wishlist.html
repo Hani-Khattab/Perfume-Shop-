@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BLOG</title>
-
-  <!-- CSS Font -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whishlist</title>
+    
+     <!-- CSS Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
     rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
   <!--  Bootstrap CSS  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <!--  Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/BLOG.css">
+  <link rel="stylesheet" href="./assets/css/wishlist.css">
+
 </head>
 <body>
-
- <nav class="navbar navbar-expand-lg  shadow-sm py-3 sticky-top">
+    
+      <nav class="navbar navbar-expand-lg  shadow-sm py-3 sticky-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="./index.html">
         <img src="./assets/img/logo/nav-logo2.webp" alt="Logo" height="40">
@@ -35,7 +39,7 @@
           <li class="nav-item dropdown">
           <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
 
-          <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link" href="./BLOG.html">BLOG</a></li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"
@@ -76,7 +80,7 @@
                 </svg> </a>
             </div>
             <div class="icon">
-              <a href="./login.html" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
+              <a href="#" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
                 <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 640 640">
                   <path
                     d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z" />
@@ -89,7 +93,6 @@
     </div>
   </nav>
 
-
   <main>
     <section class="right-cart-offcanvas">
       <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
@@ -98,7 +101,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="btn-close"></button>
         </div>
         <div class="offcanvas-body d-flex flex-column align-items-center justify-content-start gap-4 text-center p-5 ">
-              <svg id="fi_4076503" enable-background="new 0 0 511.997 511.997" height="90" viewBox="0 0 511.997 511.997" width="90" xmlns="http://www.w3.org/2000/svg"><g>
+    <svg id="fi_4076503" enable-background="new 0 0 511.997 511.997" height="90" viewBox="0 0 511.997 511.997" width="90" xmlns="http://www.w3.org/2000/svg"><g>
       <path d="m482.04 271.796c-.49-5.754-4.193-10.479-9.664-12.332l-44.39-15.032 43.215-49.58c2.869-3.291 4.069-7.643 3.294-11.939-.776-4.296-3.423-7.953-7.262-10.033l-55.753-30.207c-3.643-1.973-8.193-.621-10.168 3.021-1.973 3.642-.62 8.194 3.021 10.167l54.987 29.792-46.053 52.835-145.461-78.813 26.991-30.965c3.106 1.14 6.46 1.762 9.956 1.762 10.855 0 20.33-6.003 25.293-14.86l41.679 22.582c1.136.615 2.359.907 3.566.907 2.664 0 5.243-1.422 6.602-3.929 1.973-3.642.62-8.194-3.022-10.167l-45.164-24.469c-.509-15.535-13.296-28.018-28.953-28.018-15.978 0-28.977 12.999-28.977 28.977 0 7.035 2.522 13.49 6.706 18.515l-26.484 30.384-46.921-53.829c-4.43-5.083-11.663-6.39-17.594-3.178l-18.341 9.937c-2.149-16.995-16.686-30.185-34.255-30.185-19.044 0-34.538 15.494-34.538 34.539 0 10.53 4.743 19.969 12.198 26.309l-71.784
        38.893c-3.838 2.08-6.484 5.736-7.261 10.033-.775 4.296.425 8.648 3.294 11.938l43.214 49.58-44.389 15.031c-5.471 1.853-9.174 6.578-9.664 12.332s2.36 11.038 7.438 13.789l52.127 28.242v28.309c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-20.182l72.928 39.512c3.111 1.686 6.582 2.543 10.066 2.543 2.278 0 4.563-.367 6.755-1.109l54.228-18.361v149.222l-140.781-76.278c-1.971-1.068-3.195-3.124-3.195-5.366v-32.956c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v32.956c0 7.752 4.233 14.861 11.049 18.554l145.374 78.767c3.148 1.706 6.601 2.558 10.054 2.558s6.906-.853 10.054-2.558l145.374-78.767c6.815-3.693 11.049-10.802 11.049-18.554v-98.291l52.126-28.242c5.075-2.748 7.926-8.031 7.436-13.786zm-209.461-58.022c26.254 7.38 44.59 31.59 44.59 58.875 0 7.598-1.365 14.972-4.063 21.959l-57.107 30.941-57.107-30.941c-2.697-6.987-4.063-14.361-4.063-21.959
         0-27.369 18.406-51.6 44.762-58.925 3.99-1.109 6.326-5.244 5.217-9.234-1.108-3.991-5.245-6.326-9.234-5.218-32.821 9.123-55.744 39.296-55.744 73.377 0 4.11.333 8.167.973 12.159l-68.036-36.863 143.234-77.606 143.233 77.607-68.036 36.863c.64-3.992.973-8.049.973-12.159 0-33.977-22.835-64.125-55.531-73.316-3.988-1.122-8.129 1.204-9.249 5.19-1.124 3.988 1.199 8.129 5.188 9.25zm32.174-126.254c7.707 0 13.978 6.27 13.978 13.977s-6.271 13.978-13.978 13.978-13.977-6.271-13.977-13.978 6.27-13.977 13.977-13.977zm-165.865.621c10.773 0 19.539 8.765 19.539 19.539 0 10.773-8.766 19.539-19.539 19.539s-19.538-8.765-19.538-19.539 8.765-19.539 19.538-19.539zm-5.292 53.672c1.726.267 3.493.406 5.292.406 13.978 0 26.033-8.351 31.464-20.321l27.786-15.054 46.052 52.833-145.461 78.813-46.053-52.835zm55.864
@@ -107,239 +110,48 @@
          <path d="m348.328 65.351c18.018 0 32.676-14.658 32.676-32.675-.001-18.018-14.659-32.676-32.676-32.676s-32.676 14.658-32.676 32.676c0 18.017 14.658 32.675 32.676 32.675zm0-50.351c9.746 0 17.676 7.929 17.676 17.676 0 9.746-7.93 17.675-17.676 17.675s-17.676-7.929-17.676-17.675c0-9.747 7.93-17.676 17.676-17.676z"></path><path d="m255.152 280.515c-7.226 0-14.046 2.396-19.214 6.754-3.166 2.67-3.569 7.402-.898 10.568 2.669 3.167 7.401 3.569 10.568.899 2.43-2.049 5.906-3.222 9.545-3.222h.05c3.657.011 7.146 1.206 9.575 3.279 1.413 1.206 3.144 1.795 4.865 1.795 2.119 0 4.225-.893 5.708-2.631 2.689-3.15 2.315-7.885-.835-10.574-5.164-4.408-12.008-6.848-19.27-6.87-.031.002-.063.002-.094.002z"></path><path d="m223.421 258.304h-.07c-4.146-.061-7.487 3.307-7.517 7.448-.028 4.142 3.341 7.523 7.483 7.552h.053c4.117 0 7.47-3.324 7.499-7.448.029-4.142-3.305-7.523-7.448-7.552z"></path><path d="m287.179 273.15c.026.005.053.008.079.013.216.042.435.077.657.1.072.007.145.007.217.012.167.012.334.028.505.029h.053c.258 0 .513-.013.765-.039 3.787-.379 6.743-3.575 6.743-7.462 0-3.836-2.881-6.993-6.596-7.44-.034-.004-.067-.012-.101-.015-.171-.018-.346-.023-.521-.03-.08-.003-.158-.013-.239-.014h-.039c-.001 0-.003 0-.004 0h-.027-.044c-.003 0-.006 0-.009 0-4.117 0-7.435 3.324-7.464 7.448-.025 3.643 2.579 6.695 6.025 7.398z">
          </path></g>
         </svg>
+          
           <p>Your Cart Is Empty </p>
           <a href="./index.html">Continue Shopping </a>
         </div>
       </div>
 </section>
 
-<section class="breadcrumb-section py-5 mb-4">
+    <section class="breadcrumb-section py-5 mb-4">
   <div class="container">
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-    <li class="breadcrumb-item active"><a href="#">News</a></li>
+    <li class="breadcrumb-item active"><a href="#">Wishlist</a></li>
   </ol>
 </nav>
   </div>
  
 </section>
 
-
-<section class="card-news ">
-    <div class="container">
-        <div class="row g-4">
-            <!-- 1 -->
-        <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card rounded-4 h-100" >
-  <img src="./assets/img/blogs/perfume-blog2025.webp" class="card-img-top img-fluid rounded-3 " alt="Woody Perfume">
-  <div class="card-body">
- <div class="card-info d-flex justify-content-start gap-3 align-items-center text-muted small mb-3">
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z" />
-                    </svg>
-                    <span>Team90Degree</span>
-                  </div>
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M224 64C241.7 64 256 78.3 256 96L256 128L384 128L384 96C384 78.3 398.3 64 416 64C433.7 64 448 78.3 448 96L448 128L480 128C515.3 128 544 156.7 544 192L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 192C96 156.7 124.7 128 160 128L192 128L192 96C192 78.3 206.3 64 224 64zM160 304L160 336C160 344.8 167.2 352 176 352L208 352C216.8 352 224 344.8 224 336L224 304C224 295.2 216.8 288 208 288L176 288C167.2 288 160 295.2 160 304zM288 304L288 336C288 344.8 295.2 352 304 352L336 352C344.8 352 352 344.8 352 336L352 304C352 295.2 344.8 288 336 288L304 288C295.2 288 288 295.2 288 304zM432 288C423.2 288 416 295.2 416 304L416 336C416 344.8 423.2 352 432 352L464 352C472.8 352 480 344.8 480 336L480 304C480 295.2 472.8 288 464 288L432 288zM160 432L160 464C160 472.8 167.2 480 176 480L208 480C216.8 480 224 472.8 224 464L224 432C224 423.2 216.8 416 208 416L176 416C167.2 416 160 423.2 160 432zM304 416C295.2 416 288 423.2 288 432L288 464C288 472.8 295.2 480 304 480L336 480C344.8 480 352 472.8 352 464L352 432C352 423.2 344.8 416 336 416L304 416zM416 432L416 464C416 472.8 423.2 480 432 480L464 480C472.8 480 480 472.8 480 464L480 432C480 423.2 472.8 416 464 416L432 416C423.2 416 416 423.2 416 432z" />
-                    </svg>
-                    <span>28 FEB, 2025</span>
-                  </div>
-                </div>
-                <h4>Proper way to apply perfumes 2025</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in...</p>
-    <a href="#" class="btn text-uppercase">read more</a>
-  </div>
-
+<section class="wishlist py-5">
+<div class="container">
+  <div class="wishlist-body d-flex flex-column align-items-center justify-content-center gap-4"> 
+    <svg id="fi_4076503" enable-background="new 0 0 511.997 511.997" height="90" viewBox="0 0 511.997 511.997" width="90" xmlns="http://www.w3.org/2000/svg"><g>
+      <path d="m482.04 271.796c-.49-5.754-4.193-10.479-9.664-12.332l-44.39-15.032 43.215-49.58c2.869-3.291 4.069-7.643 3.294-11.939-.776-4.296-3.423-7.953-7.262-10.033l-55.753-30.207c-3.643-1.973-8.193-.621-10.168 3.021-1.973 3.642-.62 8.194 3.021 10.167l54.987 29.792-46.053 52.835-145.461-78.813 26.991-30.965c3.106 1.14 6.46 1.762 9.956 1.762 10.855 0 20.33-6.003 25.293-14.86l41.679 22.582c1.136.615 2.359.907 3.566.907 2.664 0 5.243-1.422 6.602-3.929 1.973-3.642.62-8.194-3.022-10.167l-45.164-24.469c-.509-15.535-13.296-28.018-28.953-28.018-15.978 0-28.977 12.999-28.977 28.977 0 7.035 2.522 13.49 6.706 18.515l-26.484 30.384-46.921-53.829c-4.43-5.083-11.663-6.39-17.594-3.178l-18.341 9.937c-2.149-16.995-16.686-30.185-34.255-30.185-19.044 0-34.538 15.494-34.538 34.539 0 10.53 4.743 19.969 12.198 26.309l-71.784
+       38.893c-3.838 2.08-6.484 5.736-7.261 10.033-.775 4.296.425 8.648 3.294 11.938l43.214 49.58-44.389 15.031c-5.471 1.853-9.174 6.578-9.664 12.332s2.36 11.038 7.438 13.789l52.127 28.242v28.309c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-20.182l72.928 39.512c3.111 1.686 6.582 2.543 10.066 2.543 2.278 0 4.563-.367 6.755-1.109l54.228-18.361v149.222l-140.781-76.278c-1.971-1.068-3.195-3.124-3.195-5.366v-32.956c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v32.956c0 7.752 4.233 14.861 11.049 18.554l145.374 78.767c3.148 1.706 6.601 2.558 10.054 2.558s6.906-.853 10.054-2.558l145.374-78.767c6.815-3.693 11.049-10.802 11.049-18.554v-98.291l52.126-28.242c5.075-2.748 7.926-8.031 7.436-13.786zm-209.461-58.022c26.254 7.38 44.59 31.59 44.59 58.875 0 7.598-1.365 14.972-4.063 21.959l-57.107 30.941-57.107-30.941c-2.697-6.987-4.063-14.361-4.063-21.959
+        0-27.369 18.406-51.6 44.762-58.925 3.99-1.109 6.326-5.244 5.217-9.234-1.108-3.991-5.245-6.326-9.234-5.218-32.821 9.123-55.744 39.296-55.744 73.377 0 4.11.333 8.167.973 12.159l-68.036-36.863 143.234-77.606 143.233 77.607-68.036 36.863c.64-3.992.973-8.049.973-12.159 0-33.977-22.835-64.125-55.531-73.316-3.988-1.122-8.129 1.204-9.249 5.19-1.124 3.988 1.199 8.129 5.188 9.25zm32.174-126.254c7.707 0 13.978 6.27 13.978 13.977s-6.271 13.978-13.978 13.978-13.977-6.271-13.977-13.978 6.27-13.977 13.977-13.977zm-165.865.621c10.773 0 19.539 8.765 19.539 19.539 0 10.773-8.766 19.539-19.539 19.539s-19.538-8.765-19.538-19.539 8.765-19.539 19.538-19.539zm-5.292 53.672c1.726.267 3.493.406 5.292.406 13.978 0 26.033-8.351 31.464-20.321l27.786-15.054 46.052 52.833-145.461 78.813-46.053-52.835zm55.864
+         206.88c-1.604.544-3.378.391-4.864-.415l-83.967-45.493c-.022-.012-.045-.024-.067-.036l-54.614-29.59 50.378-17.059 140.99 76.39zm218.015 63.425c0 2.242-1.225 4.298-3.195 5.366l-140.781 76.278v-149.222l54.228 18.361c2.192.742 4.477 1.109 6.756 1.109 3.482 0 6.954-.858 10.065-2.543l72.928-39.512v90.163zm-80.074-63.84c-1.486.806-3.26.959-4.864.415l-47.855-16.203 140.99-76.39 50.378 17.059zm140.164-74.606c-.001 0-.002-.001-.004-.001z"></path>
+         <path d="m312.088 424.684-17.205 9.322c-3.642 1.973-4.994 6.525-3.021 10.167 1.358 2.506 3.938 3.929 6.602 3.929 1.206 0 2.431-.292 3.566-.907l17.205-9.322c3.642-1.973 4.994-6.525 3.021-10.167s-6.523-4.996-10.168-3.022z"></path><path d="m167.694 63.16c1.465 1.464 3.385 2.197 5.304 2.197s3.839-.732 5.304-2.197l6.187-6.187 6.187 6.187c1.465 1.464 3.385 2.197 5.304 2.197s3.839-.732 5.304-2.197c2.929-2.929 2.929-7.678 0-10.606l-6.188-6.188 6.188-6.188c2.929-2.929 2.929-7.678 0-10.606-2.93-2.929-7.678-2.929-10.607 0l-6.187 6.187-6.187-6.187c-2.93-2.929-7.678-2.929-10.607 0s-2.929 7.678 0 10.606l6.188 6.188-6.188 6.188c-2.931 2.928-2.931 7.677-.002 10.606z"></path><path d="m389.734 112.29c1.465 1.464 3.385 2.197 5.304 2.197s3.839-.732 5.304-2.197l6.187-6.187 6.187 6.187c1.465 1.464 3.385 2.197 5.304 2.197s3.839-.732 5.304-2.197c2.929-2.929 2.929-7.678 0-10.606l-6.188-6.188 6.188-6.188c2.929-2.929 2.929-7.678 0-10.606-2.93-2.929-7.678-2.929-10.607 0l-6.187 6.187-6.187-6.187c-2.93-2.929-7.678-2.929-10.607 0s-2.929 7.678 0 10.606l6.188 6.188-6.188 6.188c-2.931 2.928-2.931 7.677-.002 10.606z"></path>
+         <path d="m348.328 65.351c18.018 0 32.676-14.658 32.676-32.675-.001-18.018-14.659-32.676-32.676-32.676s-32.676 14.658-32.676 32.676c0 18.017 14.658 32.675 32.676 32.675zm0-50.351c9.746 0 17.676 7.929 17.676 17.676 0 9.746-7.93 17.675-17.676 17.675s-17.676-7.929-17.676-17.675c0-9.747 7.93-17.676 17.676-17.676z"></path><path d="m255.152 280.515c-7.226 0-14.046 2.396-19.214 6.754-3.166 2.67-3.569 7.402-.898 10.568 2.669 3.167 7.401 3.569 10.568.899 2.43-2.049 5.906-3.222 9.545-3.222h.05c3.657.011 7.146 1.206 9.575 3.279 1.413 1.206 3.144 1.795 4.865 1.795 2.119 0 4.225-.893 5.708-2.631 2.689-3.15 2.315-7.885-.835-10.574-5.164-4.408-12.008-6.848-19.27-6.87-.031.002-.063.002-.094.002z"></path><path d="m223.421 258.304h-.07c-4.146-.061-7.487 3.307-7.517 7.448-.028 4.142 3.341 7.523 7.483 7.552h.053c4.117 0 7.47-3.324 7.499-7.448.029-4.142-3.305-7.523-7.448-7.552z"></path><path d="m287.179 273.15c.026.005.053.008.079.013.216.042.435.077.657.1.072.007.145.007.217.012.167.012.334.028.505.029h.053c.258 0 .513-.013.765-.039 3.787-.379 6.743-3.575 6.743-7.462 0-3.836-2.881-6.993-6.596-7.44-.034-.004-.067-.012-.101-.015-.171-.018-.346-.023-.521-.03-.08-.003-.158-.013-.239-.014h-.039c-.001 0-.003 0-.004 0h-.027-.044c-.003 0-.006 0-.009 0-4.117 0-7.435 3.324-7.464 7.448-.025 3.643 2.579 6.695 6.025 7.398z">
+         </path></g>
+        </svg>
+  <h2 >Your Wish Is Empty</h2>
+  <p>No products were added to the wishlist page.</p>
+  <button class="btn-wishlist btn">Back to shopping</button>
 </div>
 </div>
-                    <!-- 2 -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card rounded-4 h-100" >
-  <img src="./assets/img/blogs/blog2.webp" class="card-img-top img-fluid rounded-3 " alt="glassy Perfume">
-  <div class="card-body">
- <div class="card-info d-flex justify-content-start gap-3 align-items-center text-muted small mb-3">
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z" />
-                    </svg>
-                    <span>Team90Degree</span>
-                  </div>
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M224 64C241.7 64 256 78.3 256 96L256 128L384 128L384 96C384 78.3 398.3 64 416 64C433.7 64 448 78.3 448 96L448 128L480 128C515.3 128 544 156.7 544 192L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 192C96 156.7 124.7 128 160 128L192 128L192 96C192 78.3 206.3 64 224 64zM160 304L160 336C160 344.8 167.2 352 176 352L208 352C216.8 352 224 344.8 224 336L224 304C224 295.2 216.8 288 208 288L176 288C167.2 288 160 295.2 160 304zM288 304L288 336C288 344.8 295.2 352 304 352L336 352C344.8 352 352 344.8 352 336L352 304C352 295.2 344.8 288 336 288L304 288C295.2 288 288 295.2 288 304zM432 288C423.2 288 416 295.2 416 304L416 336C416 344.8 423.2 352 432 352L464 352C472.8 352 480 344.8 480 336L480 304C480 295.2 472.8 288 464 288L432 288zM160 432L160 464C160 472.8 167.2 480 176 480L208 480C216.8 480 224 472.8 224 464L224 432C224 423.2 216.8 416 208 416L176 416C167.2 416 160 423.2 160 432zM304 416C295.2 416 288 423.2 288 432L288 464C288 472.8 295.2 480 304 480L336 480C344.8 480 352 472.8 352 464L352 432C352 423.2 344.8 416 336 416L304 416zM416 432L416 464C416 472.8 423.2 480 432 480L464 480C472.8 480 480 472.8 480 464L480 432C480 423.2 472.8 416 464 416L432 416C423.2 416 416 423.2 416 432z" />
-                    </svg>
-                    <span>28 FEB, 2025</span>
-                  </div>
-                </div>
-                <h4>Top 5 Timeless & Classic Fragrances</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in...</p>
-    <a href="#" class="btn text-uppercase">read more</a>
-  </div>
-
-</div>
-</div>
-                    <!-- 3 -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card rounded-4 h-100" >
-  <img src="./assets/img/blogs/blog3.webp" class="card-img-top img-fluid rounded-3 " alt="Jasmine Perfume">
-  <div class="card-body">
- <div class="card-info d-flex justify-content-start gap-3 align-items-center text-muted small mb-3">
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z" />
-                    </svg>
-                    <span>Team90Degree</span>
-                  </div>
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M224 64C241.7 64 256 78.3 256 96L256 128L384 128L384 96C384 78.3 398.3 64 416 64C433.7 64 448 78.3 448 96L448 128L480 128C515.3 128 544 156.7 544 192L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 192C96 156.7 124.7 128 160 128L192 128L192 96C192 78.3 206.3 64 224 64zM160 304L160 336C160 344.8 167.2 352 176 352L208 352C216.8 352 224 344.8 224 336L224 304C224 295.2 216.8 288 208 288L176 288C167.2 288 160 295.2 160 304zM288 304L288 336C288 344.8 295.2 352 304 352L336 352C344.8 352 352 344.8 352 336L352 304C352 295.2 344.8 288 336 288L304 288C295.2 288 288 295.2 288 304zM432 288C423.2 288 416 295.2 416 304L416 336C416 344.8 423.2 352 432 352L464 352C472.8 352 480 344.8 480 336L480 304C480 295.2 472.8 288 464 288L432 288zM160 432L160 464C160 472.8 167.2 480 176 480L208 480C216.8 480 224 472.8 224 464L224 432C224 423.2 216.8 416 208 416L176 416C167.2 416 160 423.2 160 432zM304 416C295.2 416 288 423.2 288 432L288 464C288 472.8 295.2 480 304 480L336 480C344.8 480 352 472.8 352 464L352 432C352 423.2 344.8 416 336 416L304 416zM416 432L416 464C416 472.8 423.2 480 432 480L464 480C472.8 480 480 472.8 480 464L480 432C480 423.2 472.8 416 464 416L432 416C423.2 416 416 423.2 416 432z" />
-                    </svg>
-                    <span>28 FEB, 2025</span>
-                  </div>
-                </div>
-                <h4>Our Perfumers’ Picks Of The Top 8</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in...</p>
-    <a href="#" class="btn text-uppercase">read more</a>
-  </div>
-
-</div>
-</div>
-                    <!-- 4 -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card rounded-4 h-100" >
-  <img src="./assets/img/blogs/rosen-perfume.webp" class="card-img-top img-fluid rounded-3 " alt="Rose PERFUME">
-  <div class="card-body">
- <div class="card-info d-flex justify-content-start gap-3 align-items-center text-muted small mb-3">
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z" />
-                    </svg>
-                    <span>Team90Degree</span>
-                  </div>
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M224 64C241.7 64 256 78.3 256 96L256 128L384 128L384 96C384 78.3 398.3 64 416 64C433.7 64 448 78.3 448 96L448 128L480 128C515.3 128 544 156.7 544 192L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 192C96 156.7 124.7 128 160 128L192 128L192 96C192 78.3 206.3 64 224 64zM160 304L160 336C160 344.8 167.2 352 176 352L208 352C216.8 352 224 344.8 224 336L224 304C224 295.2 216.8 288 208 288L176 288C167.2 288 160 295.2 160 304zM288 304L288 336C288 344.8 295.2 352 304 352L336 352C344.8 352 352 344.8 352 336L352 304C352 295.2 344.8 288 336 288L304 288C295.2 288 288 295.2 288 304zM432 288C423.2 288 416 295.2 416 304L416 336C416 344.8 423.2 352 432 352L464 352C472.8 352 480 344.8 480 336L480 304C480 295.2 472.8 288 464 288L432 288zM160 432L160 464C160 472.8 167.2 480 176 480L208 480C216.8 480 224 472.8 224 464L224 432C224 423.2 216.8 416 208 416L176 416C167.2 416 160 423.2 160 432zM304 416C295.2 416 288 423.2 288 432L288 464C288 472.8 295.2 480 304 480L336 480C344.8 480 352 472.8 352 464L352 432C352 423.2 344.8 416 336 416L304 416zM416 432L416 464C416 472.8 423.2 480 432 480L464 480C472.8 480 480 472.8 480 464L480 432C480 423.2 472.8 416 464 416L432 416C423.2 416 416 423.2 416 432z" />
-                    </svg>
-                    <span>28 FEB, 2025</span>
-                  </div>
-                </div>
-                <h4>Proper way to apply perfumes 2025</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in...</p>
-    <a href="#" class="btn text-uppercase">read more</a>
-  </div>
-
-</div>
-</div>
-                <!-- 5 -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card rounded-4 h-100" >
-  <img src="./assets/img/blogs/oud-perfume.webp" class="card-img-top img-fluid rounded-3 " alt="Oud PERFUME">
-  <div class="card-body">
- <div class="card-info d-flex justify-content-start gap-3 align-items-center text-muted small mb-3">
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z" />
-                    </svg>
-                    <span>Team90Degree</span>
-                  </div>
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M224 64C241.7 64 256 78.3 256 96L256 128L384 128L384 96C384 78.3 398.3 64 416 64C433.7 64 448 78.3 448 96L448 128L480 128C515.3 128 544 156.7 544 192L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 192C96 156.7 124.7 128 160 128L192 128L192 96C192 78.3 206.3 64 224 64zM160 304L160 336C160 344.8 167.2 352 176 352L208 352C216.8 352 224 344.8 224 336L224 304C224 295.2 216.8 288 208 288L176 288C167.2 288 160 295.2 160 304zM288 304L288 336C288 344.8 295.2 352 304 352L336 352C344.8 352 352 344.8 352 336L352 304C352 295.2 344.8 288 336 288L304 288C295.2 288 288 295.2 288 304zM432 288C423.2 288 416 295.2 416 304L416 336C416 344.8 423.2 352 432 352L464 352C472.8 352 480 344.8 480 336L480 304C480 295.2 472.8 288 464 288L432 288zM160 432L160 464C160 472.8 167.2 480 176 480L208 480C216.8 480 224 472.8 224 464L224 432C224 423.2 216.8 416 208 416L176 416C167.2 416 160 423.2 160 432zM304 416C295.2 416 288 423.2 288 432L288 464C288 472.8 295.2 480 304 480L336 480C344.8 480 352 472.8 352 464L352 432C352 423.2 344.8 416 336 416L304 416zM416 432L416 464C416 472.8 423.2 480 432 480L464 480C472.8 480 480 472.8 480 464L480 432C480 423.2 472.8 416 464 416L432 416C423.2 416 416 423.2 416 432z" />
-                    </svg>
-                    <span>28 FEB, 2025</span>
-                  </div>
-                </div>
-                <h4>Guide to Always Smelling Exquisite</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in...</p>
-    <a href="#" class="btn text-uppercase">read more</a>
-  </div>
-
-</div>
-</div>
-
-
-                    <!-- 6 -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card rounded-4 h-100" >
-  <img src="./assets/img/blogs/lavander-perfume.webp" class="card-img-top img-fluid rounded-3 " alt="Lavander pefrume">
-  <div class="card-body">
- <div class="card-info d-flex justify-content-start gap-3 align-items-center text-muted small mb-3">
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z" />
-                    </svg>
-                    <span>Team90Degree</span>
-                  </div>
-                  <div class="d-flex align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                      viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M224 64C241.7 64 256 78.3 256 96L256 128L384 128L384 96C384 78.3 398.3 64 416 64C433.7 64 448 78.3 448 96L448 128L480 128C515.3 128 544 156.7 544 192L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 192C96 156.7 124.7 128 160 128L192 128L192 96C192 78.3 206.3 64 224 64zM160 304L160 336C160 344.8 167.2 352 176 352L208 352C216.8 352 224 344.8 224 336L224 304C224 295.2 216.8 288 208 288L176 288C167.2 288 160 295.2 160 304zM288 304L288 336C288 344.8 295.2 352 304 352L336 352C344.8 352 352 344.8 352 336L352 304C352 295.2 344.8 288 336 288L304 288C295.2 288 288 295.2 288 304zM432 288C423.2 288 416 295.2 416 304L416 336C416 344.8 423.2 352 432 352L464 352C472.8 352 480 344.8 480 336L480 304C480 295.2 472.8 288 464 288L432 288zM160 432L160 464C160 472.8 167.2 480 176 480L208 480C216.8 480 224 472.8 224 464L224 432C224 423.2 216.8 416 208 416L176 416C167.2 416 160 423.2 160 432zM304 416C295.2 416 288 423.2 288 432L288 464C288 472.8 295.2 480 304 480L336 480C344.8 480 352 472.8 352 464L352 432C352 423.2 344.8 416 336 416L304 416zM416 432L416 464C416 472.8 423.2 480 432 480L464 480C472.8 480 480 472.8 480 464L480 432C480 423.2 472.8 416 464 416L432 416C423.2 416 416 423.2 416 432z" />
-                    </svg>
-                    <span>28 FEB, 2025</span>
-                  </div>
-                </div>
-                <h4>Arome Rose Incense ~ new fragrance</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in...</p>
-    <a href="#" class="btn text-uppercase">read more</a>
-  </div>
-
-</div>
-</div>
-
-    </div>
-    </div>
-    
-</section>
-
-
-
-<section class="pagination">
-    <div class="container">
-        <nav aria-label="Page navigation example">
-  <ul class="pagination d-flex gap-2 justify-content-center text-center ">
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-  </ul>
-</nav>
-    </div>
 </section>
 
   </main>
 
 
-
-
-
-
-
-  <footer class="footer py-5">
+   <footer class="footer py-5">
     <div class="container">
       <div class="row">
 
@@ -426,7 +238,12 @@
     </div>
   </footer>
 
-      <!-- Bootstrap JS -->
+
+
+
+
+
+          <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
