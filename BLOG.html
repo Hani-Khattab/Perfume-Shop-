@@ -21,7 +21,7 @@
 
  <nav class="navbar navbar-expand-lg  shadow-sm py-3 sticky-top">
     <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+      <a class="navbar-brand d-flex align-items-center" href="#">
         <img src="./assets/img/logo/nav-logo2.webp" alt="Logo" height="40">
       </a>
 
@@ -32,10 +32,70 @@
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
           <li class="nav-item"><a class="nav-link" href="./index.html">HOME</a></li>
 
-          <li class="nav-item dropdown">
-          <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"
+              data-bs-toggle="dropdown">SHOP</a>
+            <ul class="dropdown-menu w-100">
+              <div class="container">
+              <div class="row g-4">
+                <div class="col-6 col-sm-4 col-md-2">
+                  <h4 class="shop-dropdown-heading text-center">Categories</h4>
+                  <ul class="nav-listshop d-flex flex-column gap-2">
+                    <li><a href="#" class="dropdown-item">Eau de Parfum</a></li>
+                    <li><a href="#" class="dropdown-item">Eau de Toilette</a></li>
+                    <li><a href="#" class="dropdown-item">Body Mists</a></li>
+                    <li><a href="#" class="dropdown-item">Travel Sizes</a></li>
+                  </ul>
+                </div>
 
-          <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                  <div class="col-6 col-sm-4 col-md-2">
+
+                  <h4 class="shop-dropdown-heading text-center">All perfumes</h4>
+                  <ul class="nav-listshop d-flex flex-column gap-2">
+                    <li><a href="#" class="dropdown-item">Men's Fragrance</a></li>
+                    <li><a href="#" class="dropdown-item">Women's Fragrance</a></li>
+                    <li><a href="#" class="dropdown-item">unsex perfume</a></li>
+                    <li><a href="#" class="dropdown-item">New Arrivals</a></li>
+                  </ul>
+                </div>
+
+                  <div class="col-6 col-sm-4 col-md-2">
+                  <h4 class="shop-dropdown-heading text-center">Offers & Discounts</h4>
+                  <ul class="nav-listshop d-flex flex-column gap-2">
+                    <li><a href="#" class="dropdown-item">Limited Edition</a></li>
+                    <li><a href="#" class="dropdown-item">Best Seller</a></li>
+                    <li><a href="#" class="dropdown-item">Seasonal Sales</a></li>
+                    <li><a href="#" class="dropdown-item">Clearance Sell</a></li>
+                  </ul>
+                </div>
+
+
+                  <div class="col-6 col-sm-4 col-md-2">
+
+                  <h4 class="shop-dropdown-heading text-center ">Contact & support</h4>
+                  <ul class="nav-listshop d-flex flex-column gap-2">
+                    <li><a href="#" class="dropdown-item ">Customer Service</a></li>
+                    <li><a href="#" class="dropdown-item">Track your Order</a></li>
+                    <li><a href="#" class="dropdown-item">Shipping & Return </a></li>
+                    <li><a href="#" class="dropdown-item">FAQ</a></li>
+                  </ul>
+                </div>
+
+                  <div class="col-md-4 text-center">
+                  <figure class="figure-shop-list">
+                  <img src="./assets/img/FAQ/faq-question-card.webp" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-black"> Up To 50% Off On Select Item </figcaption>
+                </figure>
+                </div>
+
+                
+               
+
+            </ul>
+          </li>
+
+            </li>
+          <li class="nav-item"><a class="nav-link" href="./BLOG.html">BLOG</a></li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"
@@ -76,7 +136,7 @@
                 </svg> </a>
             </div>
             <div class="icon">
-              <a href="./login.html" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
+              <a href="#" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
                 <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 640 640">
                   <path
                     d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z" />
@@ -88,7 +148,6 @@
       </div>
     </div>
   </nav>
-
 
   <main>
     <section class="right-cart-offcanvas">
