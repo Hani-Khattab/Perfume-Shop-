@@ -1,6 +1,6 @@
 :root {
   --mainColor: rgb(93, 55, 84);
-  --mainFont: "Playfair Display,serif";
+    --mainFont: 'Playfair Display',serif;
 }
 body {
   background-color: #ffffff;
